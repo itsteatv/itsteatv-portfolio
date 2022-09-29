@@ -2,7 +2,7 @@
 
 A Modern Mini Responsive Personal Portfolio :iphone:
 
-![App Screenshot](https://i.postimg.cc/XYL9t0LP/Tab-1664457293293.gif)
+
 
 :collision: Features
 
