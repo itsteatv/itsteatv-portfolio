@@ -16,9 +16,9 @@ A Modern Mini Responsive Personal Portfolio :iphone:
  :small_red_triangle_down: [To View Demo Click Here](https://itsteatv-portfolio.netlify.app/)
  
  
-## Authors :trollface:
+## Authors
 
-- [@itsteatv](https://github.com/itsteatv)
+:trollface: [@itsteatv](https://github.com/itsteatv)
 
 
 ## Screenshots :camera:
