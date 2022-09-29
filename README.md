@@ -1,6 +1,6 @@
 # MiniFolio :fire:
 
-A Modern Mini Responsive Personal Portfolio :iphone:
+A Modern Mini Responsive Personal Portfolio:iphone:
 
 
 
@@ -27,8 +27,8 @@ A Modern Mini Responsive Personal Portfolio :iphone:
 
 ## Screenshots :camera:
 
-![App Screenshot](https://i.postimg.cc/DyTH52R3/2022-09-29-17-27-27.png)
-![App Screenshot](https://i.postimg.cc/Dy74qMdy/2022-09-29-17-39-30.png)
+![App Screenshot](https://github.com/itsteatv/itsteatv-portfolio/blob/master/background-images/demo-example-light-mode.png)
+![App Screenshot](https://github.com/itsteatv/itsteatv-portfolio/blob/master/background-images/demo-example.png)
 
 
 
