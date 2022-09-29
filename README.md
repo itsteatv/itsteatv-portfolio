@@ -19,7 +19,7 @@ A Modern Mini Responsive Personal Portfolio :iphone:
 ## Screenshots :camera:
 
 ![App Screenshot](https://i.postimg.cc/DyTH52R3/2022-09-29-17-27-27.png)
-![App Screenshot](https://i.postimg.cc/DyTH52R3/2022-09-29-17-27-27.png)
+![App Screenshot](https://i.postimg.cc/wvN4cPVB/2022-09-29-17-27-08.png)
 
 
 
