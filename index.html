@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="/img/profile.jfif" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!--=============== Queries CSS ===============-->
+        <link rel="stylesheet" href="css/queries.css">
+
+        <title>Mini Portfolio - itsteatv</title>
+    </head>
+    <body>
+
+        <!--=============== HERO SECTION ===============-->
+        <section id="section">
+            <div class="profile--container">
+
+        <!--=============== LIVE THEME SWITCHER ===============-->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <div class="profile--info">
+                    <div class="profile--border">
+                        <div class="profile--image">
+                            <img src="/img/profile.jfif" alt="">
+                        </div>
+                    </div>
+                    <h2 class="profile--name">Hi, I'm Reza Abdollahi</h2>
+                    <h3 class="profile--job"></h3>
+
+                    <ul class="profile--social">
+                        <a href="https://www.instagram.com/itsteatv/" target="_blank" class="profile--social-links">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://github.com/itsteatv" target="_blank" class="profile--social-links">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://discord.com/users/703054310128353280" target="_blank" class="profile--social-links">
+                            <i class="ri-discord-fill"></i>
+                        </a>
+                    </ul>
+                    </div>
+        </section>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters--section">
+                    <button class="filters--buttons filter-tab-active" data-target="#projects">
+                        Projects
+                    </button>
+                    <button class="filters--buttons" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects--content grid filter__active" data-content id="projects">
+                        <div class="projects--section">
+                            <img src="/img/project2.jpg" alt="" class="project--img">
+
+                            <div class="projects--card">
+                                <div>
+                                    <span class="projects--title">Video Game</span>
+                                    <h3 class="projects--descriptions">Guess My Number</h3>
+                                    <a href="https://retro-guess-mynumber-game.netlify.app/" target="_blank" class="button projects--button">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="projects--section">
+                            <img src="/img/project5.jpg" alt="" class="project--img">
+
+                            <div class="projects--card">
+                                <div>
+                                    <span class="projects--title">Web</span>
+                                    <h3 class="projects--descriptions">Banking Dashboard</h3>
+                                    <a href="https://final-banking-dashboard.netlify.app/" target="_blank" class="button projects--button">
+                                        <i class="ri-links-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills-content" data-content id="skills">
+                        <h1 class="skills--header">My Skills</h1>
+                        <div class="skills">
+                            <div class="skill">
+                                <div class="skills-name">HTML</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per-1"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills">
+                            <div class="skill">
+                                <div class="skills-name">JAVASCRIPT</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per-2"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills">
+                            <div class="skill">
+                                <div class="skills-name">SASS</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per-3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer--container">
+            <span class="footer--content">copyright &copy;2022 itsteatv. designed by <span><a href="https://www.instagram.com/itsteatv/" target="_blank">itsteatv</a></span></span>
+        </footer>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="js/main.js"></script>
+
+        <!--=============== AUTOTYPING ===============-->
+        <script src="js/autotyping.js"></script>
+    </body>
+</html>

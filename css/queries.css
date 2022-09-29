@@ -1,0 +1,180 @@
+/* rem and em do NOT  depend on html font-size in media queries !
+Instead, 1rem = 1em = 16px */
+
+/* HIGHER THAN 1444px */
+
+@media (min-width: 90em) {
+    .projects--content {
+        justify-content: center;
+        grid-template-columns: 650px;
+    }
+
+    .filters--section {
+        width: 650px;
+        margin: 1rem auto;
+    }
+}
+
+/* BETWEEN 1345px and 1444px (landscape tablets) */ 
+@media (min-width: 84em) and (max-width: 90em) {
+    .projects--content {
+        justify-content: center;
+        grid-template-columns: 750px;
+    }
+
+    .filters--section {
+        width: 750px;
+        margin: 1rem auto;
+    }
+
+    .footer--content {
+        margin-top: 2rem;
+    }
+
+    .projects--title {
+        font-size: 1.75rem;
+    }
+
+    .projects--descriptions {
+        font-size: 2rem;
+    }
+}
+
+
+/* BETWEEN 1200px and 1344px (landscape tablets) */ 
+
+@media (min-width: 75em) and (max-width: 84em) {
+    .projects--content {
+        justify-content: center;
+        grid-template-columns: 600px;
+    }
+
+    .projects--title {
+        font-size: 1.25rem;
+    }
+
+    .projects--descriptions {
+        font-size: 1.5rem;
+    }
+
+    .filters--section {
+        width: 600px;
+        margin: 1rem auto;
+    }
+
+    .profile--border {
+        height: 135px;
+        width: 135px;
+        margin-bottom: 1rem;
+    }
+
+    .profile--image {
+        height: 120px;
+        width: 120px;
+    }
+
+    .footer--content {
+        margin-top: 2rem;
+    }
+}
+
+/* BETWEEN 946px and 1199px (tablets and Smaller tablets ) */ 
+
+@media (min-width: 59em) and (max-width: 75em) {
+    .projects--content {
+        justify-content: center;
+        grid-template-columns: 550px;
+    }
+
+    .projects--title {
+        font-size: 1.25rem;
+    }
+
+    .projects--descriptions {
+        font-size: 1.5rem;
+    }
+
+    .filters--section {
+        width: 550px;
+        margin: 1rem auto;
+    }
+
+    .footer--content {
+        margin-top: 2rem;
+    }
+}
+
+/* BETWEEN 704px and 944px (tablets and Smaller tablets ) */ 
+
+@media (min-width: 44em) and (max-width: 59em) {
+    .projects--content {
+        justify-content: center;
+        grid-template-columns: 500px;
+    }
+
+    .projects--title {
+        font-size: 1.25rem;
+    }
+
+    .projects--descriptions {
+        font-size: 1.5rem;
+    }
+
+    .filters--section {
+        width: 500px;
+        margin: 1rem auto;
+    }
+
+    .footer--content {
+        margin-top: 2rem;
+    }
+}
+
+/* BETWEEN 545px and 703px (Special) */ 
+
+@media (min-width: 34em) and (max-width: 44em) {
+    .projects--content {
+        justify-content: center;
+        grid-template-columns: 400px;
+    }
+
+    .filters--section {
+        width: 400px;
+        margin: 1rem auto;
+    }
+
+    .footer--content {
+        margin-top: 2rem;
+    }
+}
+
+
+/* BETWEEN 544px and 324px (Phones) */ 
+
+@media (min-width: 18em) and (max-width: 34em) {
+    .projects--content {
+        justify-content: center;
+        grid-template-columns: 280px;
+    }
+
+    .filters--section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .projects--title {
+        font-size: 1rem;
+    }
+
+    .projects--descriptions {
+        font-size: 1rem;
+    }
+
+    .projects--button {
+        margin-top: 0.5rem;
+    }
+
+    .footer--content {
+        margin-top: 2rem;
+    }
+}
