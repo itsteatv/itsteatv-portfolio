@@ -2,13 +2,17 @@
 
 A Modern Mini Responsive Personal Portfolio :iphone:
 
+![App Screenshot](https://i.postimg.cc/XYL9t0LP/Tab-1664457293293.gif)
 
 :collision: Features
 
-:heavy_check_mark: Light/dark mode toggle
-:heavy_check_mark: Live previews
-:heavy_check_mark: Fully Responsive
-:heavy_check_mark: Modern UI Design
+⚡️ Light/dark mode toggle
+<br>
+⚡️ Live previews
+<br>
+⚡️ Fully Responsive
+<br>
+⚡️ Modern UI Design
 
 
 ## Demo
